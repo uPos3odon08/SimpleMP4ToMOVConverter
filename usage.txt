@@ -1,0 +1,3 @@
+first you have to make sure to make the file executable by running "chmod +x ./converter.sh"
+then to convert files with the script simply just "./converter.sh [path to the mp4 file]
+example: ./converter.sh /Downloads/Video.mp4 
