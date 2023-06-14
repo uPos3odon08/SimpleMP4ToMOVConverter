@@ -5,3 +5,10 @@ To convert from MP4 to MOV:
 
 To convert from MOV to MP4:
    ./converter.sh --movtomp4 path/to/input.mov
+   
+To convert from MP4 to MPV with NVENC:
+./converter.sh --enable-nvenc --mp4tomov path/to/input.mp4
+
+To convert from MOV to MP4 with NVENC:
+./converter.sh --enable-nvenc --movtomp4 path/to/input.mov
+
